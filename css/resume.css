@@ -4,6 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
+:root {
+    --dark-main-color: #AA543D;
+    --dark-hover-color: #872B12;
+    --light-outline-color: #EFBBAE;
+}
+
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
@@ -72,7 +78,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: var(--dark-main-color);
 }
 
 .dev-icons {
@@ -80,7 +86,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: var(--dark-main-color);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +96,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: var(--light-outline-color);
 }
 
 @media (min-width: 992px) {
@@ -160,17 +166,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: var(--dark-main-color) !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: var(--dark-main-color) !important;
 }
 
 a {
-  color: #BD5D38;
+  color: var(--dark-main-color);
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: var(--dark-hover-color);
 }
