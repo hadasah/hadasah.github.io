@@ -5,9 +5,11 @@
  */
 
 :root {
-    --dark-main-color: #AA543D;
-    --dark-hover-color: #872B12;
-    --light-outline-color: #EFBBAE;
+    --dark-main-color:#A16A62;
+    --dark-hover-color:#54302B;
+    --light-outline-color:#EFBBAE;
+    --light-accent-color:#62A184;
+    --dark-accent-color:#23543D;
 }
 
 body {
@@ -38,6 +40,7 @@ h6 {
 h1 {
   font-size: 6rem;
   line-height: 5.5rem;
+  color: var(--dark-main-color) !important;
 }
 
 h2 {
@@ -58,6 +61,7 @@ p.lead {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
+  color: var(--dark-main-color) !important;
 }
 
 .social-icons a {
@@ -71,6 +75,7 @@ p.lead {
   font-size: 1.5rem;
   line-height: 3.5rem;
   margin-right: 1rem;
+  background-color: var(--light-accent-color);
 }
 
 .social-icons a:last-child {
@@ -78,7 +83,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: var(--dark-main-color);
+  background-color: var(--dark-accent-color);
 }
 
 .dev-icons {
@@ -174,9 +179,13 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: var(--dark-main-color);
+  color: var(--light-accent-color);
 }
 
 a:hover, a:focus, a:active {
+  color: var(--dark-accent-color);
+}
+
+.text-darker {
   color: var(--dark-hover-color);
 }
