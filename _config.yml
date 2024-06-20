@@ -1,0 +1,25 @@
+title:              "Margaret Li"
+email:              margsli@cs.washington.edu
+description:        "Margaret's page"
+author:             Margaret Li
+baseurl:            ""
+url:                "https://margs.li"
+
+# Social Profiles
+twitter_username:   margsli
+github_username:    hadasah
+facebook_username:  margaret.li1
+instagram_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   Ugem install eventmachine -- --with-cppflags=-I/usr/local/opt/openssl/include                                                                                                       A-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           10
+paginate_path:      "/blog/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
